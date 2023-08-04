@@ -56,6 +56,11 @@ form {
 }
 
 .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
     font-family: FreeMono, monospace;
     color: white;
     background-color: #69b3c5;
@@ -72,19 +77,3 @@ form {
     justify-content: center;
     align-self: flex-end;
 }
-
-/* section {
-    background-color: #ff87cd94;
-    padding: 1em;
-    border-radius: 250px;
-    font-family: FreeMono, monospace;
-    color: rgb(42, 44, 53);
-    display: flex;
-    justify-content: center;
-} */
-
-/* div{
-    display: block;
-    justify-content: center;
-} */
-

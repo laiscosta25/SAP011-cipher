@@ -1,15 +1,14 @@
 const cipher = {
 
   encode: function (offset, string) {
-     if (!offset) {
-       throw new TypeError();
-     }
+    if (!offset) {
+      throw new TypeError();
+    }
 
-console.log(offset, string)
     let textCode = "";
 
     for (let i = 0; i < string.length; i++) {
-      let cifrar = string.charCodeAt(i);
+      const cifrar = string.charCodeAt(i);
 
       if (cifrar >= 65 && cifrar <= 90) {
         textCode += String.fromCharCode(((cifrar - 65 + offset) % 26) + 65);
@@ -29,7 +28,7 @@ console.log(offset, string)
     let textDecode = "";
 
     for (let i = 0; i < string.length; i++) {
-      let decifrar = string.charCodeAt(i);
+      const decifrar = string.charCodeAt(i);
 
       if (decifrar >= 65 && decifrar <= 90) {
         textDecode += String.fromCharCode(((decifrar + 65 - offset) % 26) + 65);
@@ -40,8 +39,8 @@ console.log(offset, string)
       }
     }
     return textDecode;
-  },
-  // ...
-};
+  }
+
+}
 
 export default cipher
