@@ -7,7 +7,7 @@ function cipherTextReturn(e) {
   e.preventDefault()
   const offset = parseInt(document.getElementById("offsetNumber1").value)
   const string = document.getElementById("ToCodeText").value
-  const resultCipher = cipher.encode(offset, string);
+  const resultCipher = cipher.encode(offset, string)
   const showResult = document.getElementById("ResultCodeText")
   showResult.value = resultCipher;
 }
