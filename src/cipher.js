@@ -2,7 +2,7 @@ const cipher = {
 
   encode: function (offset, string) {
     if (!offset) {
-      throw new TypeError();
+      throw new TypeError("Algum campo não foi preenchido. Por favor, verifique e tente novamente.");
     }
 
     let textCode = "";
@@ -23,7 +23,7 @@ const cipher = {
 
   decode: function (offset, string) {
     if (!offset) {
-      throw new TypeError();
+      throw new TypeError("Algum campo não foi preenchido. Por favor, verifique e tente novamente.");
     }
     let textDecode = "";
 
