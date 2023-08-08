@@ -49,7 +49,7 @@ O Secret Message consiste em ajudar garotas na faixa dos 16 anos e são lésbica
 
 ## 5. Tecnologias
 
-![Alt text](html5-logo-31816.png)
+![Alt text](front-end-html5-css-js.png)
 
 ## 6. Interface
 
