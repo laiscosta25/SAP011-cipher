@@ -41,7 +41,7 @@ Esta é a minha primeira aplicação como desenvolvedora web fornt-end no bootca
 
 ## 3. Protótipo
 
-![Alt text](projeto.png)
+![Alt text](Protótipo.png)
 
 ### HTML
 
