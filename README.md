@@ -1,37 +1,47 @@
-# Cifra de César
+# Secret Message - Cifra de César
 
-## 1. Introduçãp
+## Índice
 
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-
+* [1. Introdução](#1-Introdução ao Projeto)
+* [2. Resumo](#2-Resumo)
+* [3. Protótipo](#3-protótipo)
+* [4. Usabilidade](#4-usabilidade)
+* [5. Experiência](#5-experiência)
+* [6. Tecnologias utilizadas](#6-tecnologias-utilizadas)
+* [7. Interface](#7-interface)
+* [8. Teste](#8-teste)
+* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
+* [10.Desenvolvedora](#10-desenvolvedora)
 ***
 
-## 2. Resumo do projeto
+## 1. Introdução ao Projeto
 
-Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
-poderá cifrar e decifrar um texto no navegador indicando um deslocamento
-específico de caracteres (_offset_). Você fará isso usando HTML, CSS e
-JavaScript.
+Encriptar significa ocultar o conteúdo de uma mensagem a olho nu,
+para que somente as partes autorizadas possam decifrar um texto cifrado.
+A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+é um dos primeiros tipos de criptografias conhecidas na história.
+O imperador romano Júlio César utilizava essa cifra para enviar
+ordens secretas aos seus generais no campo de batalha.
 
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
+A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
+tipo de cifra por substituição, em que cada letra do texto original é
+substituida por outra que se encontra há um número fixo de posições
+(deslocamento) mais a frente do mesmo alfabeto.
 
-* Criar senhas seguras para email.
-* Cifrar cartões de crédito.
-* Ferramenta de mensagens internas de uma organização
-  em uma zona de conflito.
-* Mensagens secretas para alguma pessoa.
+Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 
-Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
-do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
-bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
- desenvolver este projeto, você também se familiarizará com novos conceitos.
+* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+* A letra A será D
+* A palavra CASA será FDVD
 
-## 7. Objetivos de aprendizagem
+## 2. Resumo
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+Esta é a minha primeira aplicação como desenvolvedora web fornt-end no bootcamp do Laboratória.
+
+## 3. Protótipo
+
+![Alt text](projeto.png)
 
 ### HTML
 
