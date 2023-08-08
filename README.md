@@ -61,7 +61,7 @@ Projeto com 100% de aprovação no npm test.
 
 ## 8. Link
 
-Clique [aqui](https://laiscosta25.github.io/SAP011-cipher/) para visitar a página.
+Clique [aqui](https://laiscosta25.github.io/SAP011-cipher/src/) para visitar a página.
 
 ## 9. Onde me encontrar
 
