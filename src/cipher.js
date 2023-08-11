@@ -1,21 +1,21 @@
-const cipher = {
+const cipher = {// Objeto "cipher" que contém as funções de cifragem e decifragem
 
-  encode: function (offset, string) {
-    if (!offset) {
+  encode: function (offset, string) {// Função para cifrar o texto
+    if (!offset) {// Verifica se o campo "offset" foi preenchido
       throw new TypeError("Algum campo não foi preenchido. Por favor, verifique e tente novamente.");
     }
 
-    let textCode = "";
+    let textCode = "";// Variável para armazenar o texto cifrado
 
-    for (let i = 0; i < string.length; i++) {
-      const cifrar = string.charCodeAt(i);
+    for (let i = 0; i < string.length; i++) { // Loop para percorrer cada caractere na string
+      const cifrar = string.charCodeAt(i);// Obtém o código Unicode do caractere
 
-      if (cifrar >= 65 && cifrar <= 90) {
-        textCode += String.fromCharCode(((cifrar - 65 + offset) % 26) + 65);
-      } else if (cifrar >= 97 && cifrar <= 122) {
-        textCode += String.fromCharCode(((cifrar - 97 + offset) % 26) + 97);
+      if (cifrar >= 65 && cifrar <= 90) {// Caracteres de letras maiúsculas
+        textCode += String.fromCharCode(((cifrar - 65 + offset) % 26) + 65);// Executa a cifragem para letras maiúsculas
+      } else if (cifrar >= 97 && cifrar <= 122) {// Caracteres de letras minúsculas
+        textCode += String.fromCharCode(((cifrar - 97 + offset) % 26) + 97);// Executa a cifragem para letras minúsculas
       } else {
-        textCode += string.charAt(i);
+        textCode += string.charAt(i);// Mantém caracteres não alfabéticos inalterados
       }
     }
     return textCode;
