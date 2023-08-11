@@ -25,6 +25,7 @@ const cipher = {
     if (!offset) {
       throw new TypeError("Algum campo não foi preenchido. Por favor, verifique e tente novamente.");
     }
+    
     let textDecode = "";
 
     for (let i = 0; i < string.length; i++) {
