@@ -1,17 +1,18 @@
 h1 {
-    border-radius: 15px;
+    border-radius: 20px;
     font-family: monospace;
     font-size: 40px;
     color: #ffff;
     text-align: center;
-    background-color: #69b3c5;
+    background-color: #d15675;
 }
 h2 {
-    border-radius: 15px;
+    border-radius: 30px;
     font-family: monospace;
     color: rgb(252, 252, 252);
     text-align: center;
-    background-color: #69b3c5;
+    background-color:#d15675;
+    ;
 }
 
 section {
@@ -22,7 +23,7 @@ section {
 
 body {
     background-repeat: no-repeat;
-    background-image: url(https://img.freepik.com/vetores-gratis/cartas-romanticas-postam-um-homem-de-composicao-plana-em-uma-mesa-lendo-uma-carta-romantica-e-ao-seu-redor-outras-cartas-envelopes-selos-ilustracao-vetorial-de-cera-de-vedacao_1284-81364.jpg?w=740&t=st=1705237129~exp=1705237729~hmac=2e4f50206696f2c8fe92c4af0fd8a541f6006d24fec1962c2e4f79a3e63275b4);
+    background-image: url(https://img.freepik.com/vetores-gratis/mulher-empregada-trabalha-em-ambiente-de-escritorio-criativo_107791-21153.jpg?w=900&t=st=1705238516~exp=1705239116~hmac=5f4869e97f6460630f02b206aa3f1816402e5f9be138ac77ab2e1e0a2ba086dd);
     background-position: center center;
     background-size: cover;
 }
@@ -34,8 +35,8 @@ body {
 
 form {
     font-family: FreeMono, monospace;
-    color: white;
-    background-color: #ff7676d0;
+    color: #d15675;
+    background-color: #ffffffad;
     max-width: 325px;
     height: 585px;
     padding: 40px;
@@ -43,7 +44,7 @@ form {
 }
 
 .textarea {
-    background-color: rgb(196, 228, 255);
+    background-color: rgb(227, 196, 255);
     border: 2px solid transparent;
     border-radius: 10px;
     color: rgb(42, 44, 53);
@@ -52,8 +53,8 @@ form {
 }
 
 .input-offset {
-    background-color: rgb(196, 228, 255);
-    border: 2px solid rgb(196, 228, 255);
+    background-color: rgb(255, 196, 247);
+    border: 2px solid rgb(255, 196, 247);
     border-radius: 5px;
 }
 
@@ -62,19 +63,36 @@ form {
     justify-content: center;
 }
 
-button {
+#buttonCipher {
     font-family: FreeMono, monospace;
     color: white;
-    background-color: #69b3c5;
-    border: 2px solid #69b3c5;
+    background-color: #d15675;
+    border: 7px solid #d15675;
     border-radius: 5px;
+    margin-top: 1px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#buttonDecipher {
+    font-family: FreeMono, monospace;
+    color: white;
+    background-color: #d15675;
+    border: 7px solid #d15675;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-left: 50px;
     display: flex;
     justify-content: center;
 }
 
 .credit {
     font-family: FreeMono, monospace;
-    color: rgb(42, 44, 53);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #d15675;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-self: flex-end;

@@ -45,15 +45,15 @@ Esta é a minha primeira aplicação como desenvolvedora web fornt-end no bootca
 
 ## 4. Experiência
 
-O Secret Message consiste em ajudar garotas na faixa dos 16 anos e são lésbicas não assumidas, mas mantém um relacionamento, a se comunicarem de forma secreta. Então elas gostam de fazer as coisas a moda antiga, escrever cartas uma para a outra. Mas como os pais delas não sabem, elas decidem usar a cifra de césar para que não descubram até estarem prontas para contar.
+O Secret Message consiste em ajudar jovens mulheres que mantém um relacionamento homoafetivo secreto, a se comunicarem de forma codificada. Então para aquelas que gostam de escrever cartas uma para a outra, mas como os pais delas não sabem, elas decidem usar a cifra de césar para que não descubram até estarem prontas para contar.
 
 ## 5. Tecnologias
 
-![Alt text](front-end-html5-css-js.png)
+![Alt text](html-css-javascript.png)
 
 ## 6. Interface
 
-![Alt text](Projeto.png)
+![Alt text](Interface do Projeto.png)
 
 ## 7. Teste
 ![Alt text](Test.png)
