@@ -43,9 +43,11 @@ Esta é a minha primeira aplicação como desenvolvedora web fornt-end no bootca
 
 ![Alt text](Protótipo.png)
 
-## 4. Experiência
+## 4. Experiência do Usuário
 
-O Secret Message consiste em ajudar jovens mulheres que mantém um relacionamento homoafetivo secreto, a se comunicarem de forma codificada. Então é para aquelas que gostam de escrever cartas, mas como a socienda não sabe, elas podem usar a cifra de césar para que não descubram até estarem prontas para contar.
+Este website Secret Message é uma ferramenta criativa, especialmente desenvolvida para jovens mulheres em relacionamentos homoafetivos que buscam privacidade e segurança na comunicação com suas parceiras. A plataforma é intuitiva, permitindo que usuárias codifiquem e decodifiquem mensagens de forma discreta, garantindo que suas conversas privadas permaneçam protegidas.
+
+O site tem personalização da criptografia, onde as usuárias têm a liberdade de escolher o número de deslocamentos para codificar suas mensagens, utilizando tanto letras maiúsculas quanto minúsculas. Este recurso não apenas reforça a segurança, mas também adiciona diversão, tornando a comunicação uma experiência única e pessoal, adaptada às necessidades específicas de cada usuária em sua jornada por autenticidade e conexão.
 
 ## 5. Tecnologias
 
