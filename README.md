@@ -45,7 +45,7 @@ Esta é a minha primeira aplicação como desenvolvedora web fornt-end no bootca
 
 ## 4. Experiência
 
-O Secret Message consiste em ajudar jovens mulheres que mantém um relacionamento homoafetivo secreto, a se comunicarem de forma codificada. Então para aquelas que gostam de escrever cartas uma para a outra, mas como os pais delas não sabem, elas decidem usar a cifra de césar para que não descubram até estarem prontas para contar.
+O Secret Message consiste em ajudar jovens mulheres que mantém um relacionamento homoafetivo secreto, a se comunicarem de forma codificada. Então é para aquelas que gostam de escrever cartas, mas como a socienda não sabe, elas podem usar a cifra de césar para que não descubram até estarem prontas para contar.
 
 ## 5. Tecnologias
 
