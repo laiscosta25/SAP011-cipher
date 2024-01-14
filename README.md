@@ -49,7 +49,7 @@ O Secret Message consiste em ajudar jovens mulheres que mantém um relacionament
 
 ## 5. Tecnologias
 
-![Alt text](html-css-javascript.png)
+![Alt text](Tecnologias.png)
 
 ## 6. Interface
 
